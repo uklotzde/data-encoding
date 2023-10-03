@@ -154,6 +154,10 @@
 #![warn(rust_2021_compatibility)]
 #![warn(unreachable_pub)]
 #![warn(unused)]
+// Clippy lints
+#![warn(clippy::pedantic)]
+#![allow(clippy::cast_possible_truncation)]
+#![allow(clippy::must_use_candidate)]
 // Rustdoc lints
 #![warn(rustdoc::broken_intra_doc_links)]
 
